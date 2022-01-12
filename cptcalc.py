@@ -99,7 +99,7 @@ z = cptd['SCPT_DPTH']
 x = cptd['SCPT_FRR']
 y = cptd['SCPT_QT']/1000
 cmap = plt.get_cmap('hot',None)
-norm = mpl.colors.BoundaryNorm(boundaries=[1,2,3,4,5,6,7],ncolors=4)
+norm = mpl.colors.BoundaryNorm(boundaries=[1,2,3,4,5,6,7],ncolors=7)
 ax.scatter(x,np.log(y),z,c=cptd['SCPT_CSBT'],cmap=cmap,norm=norm)
 #ax.xaxis()set_scale('log')
 #ax.yaxis.set_scale('log')
